@@ -1,0 +1,12 @@
+{
+    "name": "managlea/resource",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kauri Kont-Kontson"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Managlea\\Component\\Resource\\": ""}
+    }
+}
