@@ -21,7 +21,7 @@ class RandomTest extends PHPUnit_Framework_TestCase
         $secondVar = 2;
 
         // Assert
-        $this->assertEquals(3, $random->Calculate($firstVar, $secondVar));
+        $this->assertEquals(3, $random->calculate($firstVar, $secondVar));
     }
 
     // ...
