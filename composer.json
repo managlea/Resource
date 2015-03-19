@@ -1,5 +1,5 @@
 {
-    "description": "Additional abstraction of objects"
+    "description": "Additional abstraction of objects",
     "name": "managlea/resource",
     "type": "library",
     "authors": [
