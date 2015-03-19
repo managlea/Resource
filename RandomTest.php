@@ -7,10 +7,10 @@ class RandomTest extends PHPUnit_Framework_TestCase
     public function testCanBeNegated()
     {
         // Arrange
-        $a = 1;
+        $firstVar = 1;
 
         // Act
-        $b = 2;
+        $secondVar = 2;
 
         // Assert
         $this->assertEquals(3, $a+$b);
