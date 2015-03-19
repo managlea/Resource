@@ -1,7 +1,8 @@
 {
-    "description" : "Additional abstraction of objects"
+    "description": "Additional abstraction of objects",
     "name": "managlea/resource",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Kauri Kont-Kontson"

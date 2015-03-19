@@ -2,7 +2,7 @@
 
 class Random
 {
-    function Calculate($firstVar, $secondVar)
+    function calculate($firstVar, $secondVar)
     {
         return $firstVar + $secondVar;
     }
