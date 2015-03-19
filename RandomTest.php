@@ -1,5 +1,7 @@
 <?php
 
+require "Random.php";
+
 /**
  * This is random test.
  */
