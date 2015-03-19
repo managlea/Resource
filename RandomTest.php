@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * This is random test.
+ */
 class RandomTest extends PHPUnit_Framework_TestCase
 {
     // ...
