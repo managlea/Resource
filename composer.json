@@ -10,7 +10,7 @@
         "psr-0": {"Managlea\\Component\\Resource\\": ""}
     },
     "target-dir": "Managlea/Component/Resource",
-    "require-dev": {
+    "require": {
         "codeclimate/php-test-reporter": "dev-master"
     }
 }
