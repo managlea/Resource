@@ -4,6 +4,6 @@ addons:
     repo_token: 272e5dabb61913265213c3851e8541428cacae0a10aff19c17c30743a100b2fd
 before_script:
   - composer self-update
-  - composer install --dev
+  - composer install
 after_script:
   - vendor/bin/test-reporter
