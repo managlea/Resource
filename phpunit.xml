@@ -1,7 +1,7 @@
 <phpunit>
   <testsuites>
     <testsuite name="money">
-      <file>tests/IntlFormatterTest.php</file>
+      <file>RandomTest.php</file>
     </testsuite>
   </testsuites>
 </phpunit>
