@@ -9,6 +9,9 @@ class RandomTest extends PHPUnit_Framework_TestCase
 
     public function testCanBeNegated()
     {
+        $random = new Random();
+        
+        
         // Arrange
         $firstVar = 1;
 
@@ -16,7 +19,7 @@ class RandomTest extends PHPUnit_Framework_TestCase
         $secondVar = 2;
 
         // Assert
-        $this->assertEquals(3, $firstVar+$secondVar);
+        $this->assertEquals(3, $random->Calculate($firstVar, $secondVar));
     }
 
     // ...
