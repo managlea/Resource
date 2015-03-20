@@ -9,7 +9,7 @@
         }
     ],
     "autoload": {
-        "psr-0": {"Managlea\\Component\\Resource\\": ""}
+        "psr-4": {"Managlea\\Component\\Resource\\": ""}
     },
     "require-dev": {
         "codeclimate/php-test-reporter": "dev-master"
