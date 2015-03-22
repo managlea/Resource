@@ -1,6 +1,6 @@
 <?php
 
-//namespace Managlea\Resource\Tests;
+namespace Managlea\Resource\Tests;
 
 use Managlea\Resource\Data\Single as SingleResource;
 

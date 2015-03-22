@@ -2,7 +2,7 @@
 
 namespace Managlea\Resource;
 
-use Managlea\Resource\Resource as AbstractResource;
+use Managlea\Resource as AbstractResource;
 
 class Exception extends AbstractResource
 {
