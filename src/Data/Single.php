@@ -10,6 +10,7 @@ class Single extends AbstractDataResource
      * @var int
      */
     protected $id;
+
     /**
      * @param string|int $id Resource id
      * @param string $namespace Resource namespace
@@ -20,6 +21,7 @@ class Single extends AbstractDataResource
         parent::__construct($namespace, $data);
         $this->id = $id;
     }
+
     /**
      * @return int Resource id
      */
@@ -32,4 +34,4 @@ class Single extends AbstractDataResource
     {
         return json_encode($this->data);
     }
-} 
+}

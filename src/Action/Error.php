@@ -2,7 +2,7 @@
 
 namespace Managlea\Resource\Action;
 
-use Managlea\Resource;
+use Managlea\Resource\Action;
 
 class Error extends Action
 {
