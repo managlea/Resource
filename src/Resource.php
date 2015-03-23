@@ -1,7 +1,9 @@
 <?php
 
 namespace Managlea\Resource;
-
+/**
+ * Abstract class
+ **/
 abstract class Resource
 {
     /**
