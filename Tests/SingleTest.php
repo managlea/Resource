@@ -9,7 +9,7 @@ class SingleTest extends \PHPUnit_Framework_TestCase
     public function testSingleResource()
     {
         $resourceId = rand(100, 999);
-        $namespace = md5(microtime() . rand(1, 1000) * rand(1 , 1000));
+        $namespace = md5(microtime() . rand(1, 1000) * rand(1, 1000));
         $data = array(
             'id' => $resourceId,
             'foo' => 'bar'
