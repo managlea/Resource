@@ -12,7 +12,7 @@ class Single extends AbstractDataResource
     protected $resourceId;
 
     /**
-     * @param string|int $id Resource id
+     * @param string|int $resourceId Resource id
      * @param string $namespace Resource namespace
      * @param array $data Resource data
      */
@@ -20,7 +20,7 @@ class Single extends AbstractDataResource
     {
         if (!is_int($resourceId))
         {
-            throw new Exception('$id must be integer');
+            throw new \Exception('$id must be integer');
         }
         
         parent::__construct($namespace, $data);
