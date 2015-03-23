@@ -3,10 +3,13 @@
         colors="true"
         bootstrap="vendor/autoload.php">
     <testsuites>
-        <testsuite name="Managlea RDBMS Test Suite">
+        <testsuite name="Managlea Resource Test Suite">
             <directory>./Tests/</directory>
         </testsuite>
     </testsuites>
+    <whitelist processUncoveredFilesFromWhitelist="true">
+        <directory suffix=".php">./src/</directory>
+    </whitelist>
     <logging>
         <log type="coverage-clover" target="build/logs/clover.xml"/>
     </logging>
