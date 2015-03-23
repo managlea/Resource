@@ -8,7 +8,8 @@
         </testsuite>
     </testsuites>
     <whitelist processUncoveredFilesFromWhitelist="true" addUncoveredFilesFromWhitelist="true">
-        <directory suffix=".php">./src/</directory>
+        <directory suffix=".php">./src</directory>
+        <file>./src/Action/Error.php</file>
     </whitelist>
     <logging>
         <log type="coverage-clover" target="build/logs/clover.xml"/>
