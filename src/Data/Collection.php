@@ -22,7 +22,7 @@ class Collection extends AbstractDataResource
         $this->count = count($data);
     }
 
-    public final function toJSON()
+    final public function toJSON()
     {
         $data = array();
 
