@@ -1,6 +1,6 @@
 # Resource
 
-[![Build Status](https://travis-ci.org/managlea/resource.svg?branch=master)](https://travis-ci.org/managlea/resource)
+[![Build Status](https://travis-ci.org/managlea/Resource.svg?branch=master)](https://travis-ci.org/managlea/Resource)
 [![Code Climate](https://codeclimate.com/github/managlea/Resource/badges/gpa.svg)](https://codeclimate.com/github/managlea/Resource)
 [![Test Coverage](https://codeclimate.com/github/managlea/Resource/badges/coverage.svg)](https://codeclimate.com/github/managlea/Resource)
 [![Codacy Badge](https://www.codacy.com/project/badge/da543a706b3e44c5aa4d9e35249ce898)](https://www.codacy.com/public/admin_4/Resource)
