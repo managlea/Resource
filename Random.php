@@ -4,8 +4,7 @@ namespace Managlea\Random;
 
 
 abstract class RandomManager implements RandomInterface {
-	
-	protected abstract function findSingle($resourceId);
+	abstract protected function findSingle($resourceId);
 	
 	protected function __construct() {
 		//
