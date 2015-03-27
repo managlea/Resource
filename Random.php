@@ -24,16 +24,3 @@ abstract class RandomManager implements RandomInterface {
 		return new DoctrineResourceManager();
 	}
 }
-
-class DoctrineResourceManager extends ResourceManager
-{
-	protected function findSingle($resourceId)
-	{
-		$data = array(
-			'name' => null,
-			'id' => $resourceId
-		);
-		
-		return $data;
-	}
-}
