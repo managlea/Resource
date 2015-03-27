@@ -1,15 +1,9 @@
 <?php
 
-interface ResourceManagerInterface {
-	
-	public static function getSingle($resourceName, $resourceId);
-	
-	//public static function getCollection($resourceName, array $filters = array());
-	
-	//public static function postSingle($resourceName, array $data);
-}
+namespace Managlea\Random;
 
-abstract class ResourceManager implements ResourceManagerInterface {
+
+abstract class RandomManager implements RandomInterface {
 	
 	protected abstract function findSingle($resourceId);
 	
@@ -43,6 +37,3 @@ class DoctrineResourceManager extends ResourceManager
 		return $data;
 	}
 }
-
-print_r(ResourceManager::getSingle('foo', rand(1, 10000)));
-
